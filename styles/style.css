@@ -25,3 +25,50 @@
   opacity: 0.8;
   background-color: #ffffff;
 }
+.banner-bg {
+  width: 1500px;
+  height: 653px;
+  border: 2px solid red;
+  background-image: url(/assets/Hero-bg.png);
+  margin-top: 35px;
+  margin-bottom: 74px;
+}
+.banner-section {
+  border: 2px solid yellow;
+  width: 70%;
+  margin: 0 auto;
+  margin-top: 26px;
+  margin-bottom: 40px;
+
+  /* contain */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 22px;
+}
+/* banner-heading */
+.banner-heading {
+  font-weight: 800;
+  font-size: 38px;
+  text-align: center;
+}
+/* banner-description */
+.banner-description {
+  text-align: center;
+}
+/* banner-btn */
+.banner-btn {
+  padding: 17px;
+  height: 50px;
+  width: 180px;
+  border-radius: 8px;
+  align-items: center;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 17px;
+  justify-content: center;
+  box-sizing: border-box;
+  background-color: #0d1321;
+  color: rgb(255, 255, 255);
+}
