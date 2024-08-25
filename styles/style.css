@@ -210,7 +210,7 @@
 .target {
   width: 70%;
   margin: 0 auto;
-  height: 1445px;
+  height: 1250px;
   margin-top: 100px;
   border: 2px solid black;
 }
@@ -307,4 +307,46 @@
 .mongodb a {
   font-weight: 700;
   color: #0d1321;
+}
+.Contact {
+  width: 90%;
+  height: 200px;
+  margin: 0 auto;
+  margin-top: 100px;
+  border: 2px solid red;
+  background-image: url(/assets/handshake.jpg);
+  background-size: cover;
+  border-radius: 16px;
+  background: rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2),
+    url(Email);
+  padding: 64px 48px 64px 48px;
+}
+.support {
+  width: 70%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+.support-btn {
+  display: flex;
+  width: 60%;
+  margin: 0 auto;
+  justify-content: center;
+  gap: 15px;
+}
+.input {
+  padding: 15px;
+  border-radius: 10px;
+  border: none;
+  flex-grow: 1;
+}
+.submit {
+  padding: 15px;
+  border-radius: 10px;
+  font-weight: bolder;
+  font-size: 20px;
+  border: none;
 }
