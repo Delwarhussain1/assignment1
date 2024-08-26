@@ -350,3 +350,15 @@
   font-size: 20px;
   border: none;
 }
+.footer-box {
+  width: 90%;
+  height: 50px;
+  padding: 32px 150px 32px 150px;
+  border-radius: 16px;
+  background: rgba(13, 19, 33, 0.03);
+  border: 2px solid red;
+}
+.footer {
+  display: flex;
+  justify-content: space-between;
+}
